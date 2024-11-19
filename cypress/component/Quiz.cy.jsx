@@ -1,9 +1,11 @@
 import React from "react";
-import Quiz from "./client/src/components/Quiz.tsx";
 import { describe } from "vitest";
 
-describe("Quiz", ({ test }) => {
+// probably cy.wrap the initial button
+
+describe("Quiz", () => {
     it('should start with a single button', () => {
-        
+        cy.visit('/')
+        cy.get('button').should('contain.text', 'Start Quiz').click()
     })
-}
+})
