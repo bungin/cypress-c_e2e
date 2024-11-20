@@ -1,11 +1,15 @@
 import React from "react";
-import { describe } from "vitest";
+import Quiz from "../../client/src/components/Quiz";
 
-// probably cy.wrap the initial button
+//use snapshot?
+//mocking the API call
+//hardcode mock data
+//tehn verify data is rendered properly
+
 
 describe("Quiz", () => {
     it('should start with a single button', () => {
-        cy.visit('/')
-        cy.get('button').should('contain.text', 'Start Quiz').click()
+        cy.mount(<Quiz />)
+        cy.get('button').should('contain.text', 'Start Quiz')
     })
 })
