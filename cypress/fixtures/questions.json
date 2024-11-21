@@ -1,0 +1,264 @@
+[
+    {
+        "_id": "6736e7d7eda38857376eca10",
+        "question": "How do you create a tuple in Python?",
+        "answers": [
+            {
+                "text": "[]",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca11"
+            },
+            {
+                "text": "{}",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca12"
+            },
+            {
+                "text": "()",
+                "isCorrect": true,
+                "_id": "6736e7d7eda38857376eca13"
+            },
+            {
+                "text": "tuple[]",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca14"
+            }
+        ]
+    },
+    {
+        "_id": "6736e7d7eda38857376eca24",
+        "question": "How do you start a comment in Python?",
+        "answers": [
+            {
+                "text": "//",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca25"
+            },
+            {
+                "text": "/*",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca26"
+            },
+            {
+                "text": "#",
+                "isCorrect": true,
+                "_id": "6736e7d7eda38857376eca27"
+            },
+            {
+                "text": "<!--",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca28"
+            }
+        ]
+    },
+    {
+        "_id": "6736e7d7eda38857376ec9e8",
+        "question": "Which of the following is a valid variable name in Python?",
+        "answers": [
+            {
+                "text": "1_variable",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9e9"
+            },
+            {
+                "text": "variable_1",
+                "isCorrect": true,
+                "_id": "6736e7d7eda38857376ec9ea"
+            },
+            {
+                "text": "variable-1",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9eb"
+            },
+            {
+                "text": "variable 1",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9ec"
+            }
+        ]
+    },
+    {
+        "_id": "6736e7d7eda38857376ec9cf",
+        "question": "What is the keyword used to define a function in Python?",
+        "answers": [
+            {
+                "text": "function",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9d0"
+            },
+            {
+                "text": "func",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9d1"
+            },
+            {
+                "text": "def",
+                "isCorrect": true,
+                "_id": "6736e7d7eda38857376ec9d2"
+            },
+            {
+                "text": "define",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9d3"
+            }
+        ]
+    },
+    {
+        "_id": "6736e7d7eda38857376eca1a",
+        "question": "What is the keyword to define a class in Python?",
+        "answers": [
+            {
+                "text": "function",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca1b"
+            },
+            {
+                "text": "def",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca1c"
+            },
+            {
+                "text": "class",
+                "isCorrect": true,
+                "_id": "6736e7d7eda38857376eca1d"
+            },
+            {
+                "text": "module",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca1e"
+            }
+        ]
+    },
+    {
+        "_id": "6736e7d7eda38857376eca06",
+        "question": "Which of the following can be used to create an empty list in Python?",
+        "answers": [
+            {
+                "text": "[]",
+                "isCorrect": true,
+                "_id": "6736e7d7eda38857376eca07"
+            },
+            {
+                "text": "{}",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca08"
+            },
+            {
+                "text": "()",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca09"
+            },
+            {
+                "text": "set()",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca0a"
+            }
+        ]
+    },
+    {
+        "_id": "6736e7d7eda38857376ec9c5",
+        "question": "What is the output of print(2 ** 3)?",
+        "answers": [
+            {
+                "text": "6",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9c6"
+            },
+            {
+                "text": "8",
+                "isCorrect": true,
+                "_id": "6736e7d7eda38857376ec9c7"
+            },
+            {
+                "text": "9",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9c8"
+            },
+            {
+                "text": "12",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9c9"
+            }
+        ]
+    },
+    {
+        "_id": "6736e7d7eda38857376eca0b",
+        "question": "What does the method append() do in a list?",
+        "answers": [
+            {
+                "text": "Adds a new element at the end of the list",
+                "isCorrect": true,
+                "_id": "6736e7d7eda38857376eca0c"
+            },
+            {
+                "text": "Removes the last element of the list",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca0d"
+            },
+            {
+                "text": "Sorts the list in ascending order",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca0e"
+            },
+            {
+                "text": "Removes all elements from the list",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca0f"
+            }
+        ]
+    },
+    {
+        "_id": "6736e7d7eda38857376eca15",
+        "question": "What is the output of print(3 == 3.0)?",
+        "answers": [
+            {
+                "text": "False",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca16"
+            },
+            {
+                "text": "True",
+                "isCorrect": true,
+                "_id": "6736e7d7eda38857376eca17"
+            },
+            {
+                "text": "3",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca18"
+            },
+            {
+                "text": "3.0",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376eca19"
+            }
+        ]
+    },
+    {
+        "_id": "6736e7d7eda38857376ec9d9",
+        "question": "What is the output of len('hello world')?",
+        "answers": [
+            {
+                "text": "10",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9da"
+            },
+            {
+                "text": "11",
+                "isCorrect": true,
+                "_id": "6736e7d7eda38857376ec9db"
+            },
+            {
+                "text": "12",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9dc"
+            },
+            {
+                "text": "13",
+                "isCorrect": false,
+                "_id": "6736e7d7eda38857376ec9dd"
+            }
+        ]
+    }
+]
+
+

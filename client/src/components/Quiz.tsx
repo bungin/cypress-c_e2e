@@ -16,7 +16,7 @@ const Quiz = () => {
       if (!questions) {
         throw new Error('something went wrong!');
       }
-
+      console.log(questions);
       setQuestions(questions);
     } catch (err) {
       console.error(err);
