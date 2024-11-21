@@ -12,6 +12,15 @@ describe("Quiz", () => {
       cy.mount(<Quiz />);
   
       // Check that the button contains the text 'Start Quiz'
-      cy.get('button').should('contain.text', 'Start Quiz');
+      cy.get('button').should('contain.text', 'Start Quiz').click();
+        for (let i = 0; i < 10; i++) {
+            cy.get('[data-test="test-item-1"] button').should('exist');
+            cy.get('[data-test="test-item-2"] button').should('exist');
+            cy.get('[data-test="test-item-3"] button').should('exist');
+            cy.get('[data-test="test-item-0"] button').click();
+        }
+        cy.get('h2').should('contain.text', 'Quiz Completed');
+        cy.get('div[class="alert alert-success"]').invoke('text').should('match', /Your Score: \d+\/10/i);
+        cy.get('button').should('contain.text', 'Take New Quiz');
     });
   });
