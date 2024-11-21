@@ -7,6 +7,9 @@
 ## Description
 Testing example using cypress. includes end to end and component tests.
 
+## Walkthrough
+This walkthrough assumes you already have cypress installed. <br/> https://drive.google.com/file/d/17NEpo3sNZSyohC8EaaY0AFRBEYVla45D/view?usp=sharing
+
 ## Table of Contents
 
 - [Installation](#installation)
